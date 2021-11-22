@@ -13,8 +13,9 @@ class Config:
     SECRET_KEY = ''  # generate yours
 
     SQLALCHEMY_DATABASE_URI = 'sqlite:///db\\db.db'  # example
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
 
-    SERVER_NAME = ''  # domain name
+    SERVER_NAME = 'localhost:8080'
 
     # also, you can add here another global constant of different modules
 

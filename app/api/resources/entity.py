@@ -29,7 +29,7 @@ class EntityResource(Resource):
         
         '''
         '''
-        session.delete(entity)
+        # session.delete(entity)
         session.commit()
 
         return make_response(jsonify({'result': {'success': 'OK'}}), 200)
