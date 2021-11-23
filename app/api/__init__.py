@@ -4,6 +4,7 @@ from .relations import blueprint_api
 
 api = Api(blueprint_api)
 
-from .resources import entity
+from .resources import *
 
-# api.add_resource(entity.EntityResource, '/entity/<TYPE:PARAMETER>', subdomain='api')
+# api.add_resource(EntityResource, '/entity/<TYPE:PARAM>', subdomain='api')
+# api.add_resource(EntitiesResource, '/entitities', subdomain='api')
