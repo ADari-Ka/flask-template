@@ -20,7 +20,7 @@ class EntityResource(Resource):
 
         return make_response(jsonify({'result': {'entity': 
                              entity.to_dict(only=('id', 'title', 'FIELDS', 
-                                                  'additional.FIELDS'))}}), 200)
+                                                  'additional.FIELD'))}}), 200)
 
         '''
 
